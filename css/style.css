@@ -1,0 +1,501 @@
+
+/* Global style
+-----------------------------*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #150101;
+    margin-bottom: 2px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+.services figcaption,
+.products figcaption {
+    padding: 16px 0 40px;
+}
+
+.site-btn {
+    font-weight: bold;
+    color: #fff;
+    background: #FF7B4D;
+    border: 1px solid #FF7B4D;
+    border-radius: 5px;
+}
+
+.site-btn:hover {
+    color: #FF7B4D;
+    background: #fff;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+/* Header style
+-----------------------------*/
+
+.bg-header {
+    background: #FF7B4D;
+    color: #150101;
+}
+
+.navbar-light .site-title {
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    line-height: 43px; 
+    color: #150101;
+}
+
+.navbar-light .site-title:hover,
+.navbar-light .site-title:focus {
+    color: #150101;
+}
+
+.navbar {
+    padding: 12.5px 16px 12.5px 21px;
+}
+
+.navbar .navbar-toggler {
+    font-size: 2rem;
+    color: #150101;
+    border-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Intro
+-----------------------------*/
+
+.intro {
+    color: #fff;
+    background: linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/intro-img-01.png) no-repeat center / cover;
+}
+
+.intro .container {
+    padding: 92px 16px 32px;
+}
+
+.intro-title {
+    color: inherit; 
+    margin-bottom: 11px;
+}
+
+.intro p {
+    
+    line-height: 22px;
+    margin-bottom: 13px;
+}
+
+/* Rayviar Skin Care
+-----------------------------*/
+
+.skin-care {
+    padding-top: 50px;
+}
+
+.skin-care-title {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.skin-care p {
+    margin-bottom: 42px;
+}
+
+.carousel-caption {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FF7B4D;
+}
+
+/* Services
+-----------------------------*/
+
+.services {
+    padding-top: 42px;
+}
+
+.services-text {
+    color: #FF7B4D;
+    margin-bottom: 23px;
+}
+
+/* Features
+-----------------------------*/
+
+.features {
+    background: #FF7B4D;
+    height: 70px;
+}
+
+/* Products
+-----------------------------*/
+
+.products {
+    padding-top: 32px;
+}
+
+.products-text {
+    color: #FF7B4D;
+    margin-bottom: 23px;
+}
+
+.products-wrap {
+    position: relative;
+}
+
+.products-img {
+    width: 100%;
+}
+
+.products-price {
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #FF7B4D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glory {
+    padding: 35px 0 32px;
+}
+
+.glory h3 {
+    color: #FF7B4D;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 18px 0;
+    margin: 0;  
+}
+
+.glory p {
+    margin-bottom: 0;
+}
+
+.glory-img {
+    width: 200px;
+}
+
+/* Blog Posts
+-----------------------------*/
+
+.blog {
+    padding-top: 45px;
+}
+
+.blog-text {
+    margin-bottom: 42px;
+    color: #FF7B4D;
+}
+
+.blog figure {
+    padding-bottom: 22px;
+}
+
+.blog h3 {
+    margin-top: 14px;
+}
+
+/* Divider
+-----------------------------*/
+
+.divider {
+    width: 100%;
+    height: 16px;
+    background: #FF7B4D;
+    margin-top: 4px;
+}
+
+/* Footer style
+-----------------------------*/
+
+.footer {
+    background: #000;
+    padding: 14px 0 16px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.footer .container {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.ft-rayviar {
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+/* Media queries
+-------------------------------*/
+
+@media (min-width: 414px) {
+
+    .intro p {
+        width: 300px;
+        height: 66px;
+    }
+
+    .skin-care p {
+        width: 376px;
+        height: 120px;
+    }
+
+    .carousel-caption {
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        padding-top: 26px;
+    }
+
+    .services {
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+
+    .services-text {
+        width: 298px;
+    }
+  
+    .products {
+        padding-left: 38px;
+        padding-right: 38px;
+    }
+
+    .products-text {
+        width: 298px;
+    }
+
+    .glory p {
+        margin-right: -38px;
+    }
+
+    .blog {
+        padding-left: 42px;
+        padding-right: 28px;
+    }
+
+    .ft-navbar {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+
+    .social-md-contact {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+}
+
+@media (min-width: 460px ) {
+
+    .skin-care p, 
+    .services-text,
+    .products-text {
+        width: auto;
+        height: auto;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    body {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    h2 {
+        margin-bottom: 7px;
+        font-size: 36px;
+        line-height: 49px;
+    }
+
+    .intro {
+        background-image: linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)), url(../images/intro-img-02.png);
+        min-height: 865px;
+    }
+
+    .intro .container {
+        padding-top: 242px;
+        padding-left: 50px;
+    }
+    
+    .intro-title {
+        width: 655px;
+        font-size: 68px;
+        line-height: 93px
+    }
+
+    .intro p {
+        width: 695px;
+        height: 56px;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 28px;
+    }
+
+    .skin-care {
+        padding-top: 126px;
+    }
+
+    .skin-care-title {
+        text-align: left;
+    }
+
+    .skin-care p {
+        margin-bottom: 62px;
+    }
+
+    .carousel-caption {
+        font-size: 28px;
+        line-height: 28px;
+        padding-top: 140px;
+    }
+
+    .products-price {
+        width: 80px;
+        height: 80px;
+    }
+
+    .glory {
+        padding: 137px 0 59px;
+    }
+
+    .glory-img {
+        width: 100%;
+    }
+
+    .glory h3 {
+        font-size: 20px;
+        padding-bottom: 34px;
+    }
+
+    .glory div:nth-child(2) {
+        padding-left: 31px;
+        max-width: 844px;
+    }
+
+    .blog-img-01 {
+        min-height: 94%;
+    }
+
+    .divider {
+        width: 100%;
+        height: 72px;
+        margin-top: 4px;
+    }
+
+    .ft-navbar,
+    .social-md-contact {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 37px 0 27px;
+    }
+
+    .footer .container {
+        max-width: 1000px;
+    }
+    
+    .ft-navbar {
+        padding-bottom: 45px;
+        border-bottom: 1px solid #E5E5E5;
+    }
+
+    .footer .navbar-nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .social-md-contact {
+        padding: 63px 0 54px;
+    }
+
+    .ft-rayviar {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .container {
+        max-width: 1400px;
+    }
+
+    .bg-header .navbar {
+        padding: 45.5px 11px 45.5px 35px;
+    }
+
+    .bg-header .navbar-nav {
+        justify-content: flex-end !important;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .skin-care .container {
+        padding-left: 58px;
+    }
+
+    .skin-care p {
+        max-width: 1272px;
+        height: 140px;
+    }
+}
