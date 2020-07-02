@@ -316,6 +316,10 @@ figure {
     display: inline-block;
 }
 
+.copyright {
+    margin-top: 16px;
+}
+
 .social-md-contact {
     text-align: right;
 }
@@ -388,7 +392,6 @@ figure {
         padding-top: 32px;
     }
 
-    .copyright,
     .privacy-terms {
         margin-top: 16px;
     }
