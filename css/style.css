@@ -104,7 +104,11 @@ figure {
 
 .intro {
     color: #fff;
-    background: linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/intro-img-01.jpg) no-repeat center / cover;
+    background: #333 no-repeat center / cover;
+    background-image: -o-linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/intro-img-01.jpg);
+    background-image: -moz-linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/intro-img-01.jpg);
+    background-image: -webkit-linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/intro-img-01.jpg);
+    background-image: linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/intro-img-01.jpg);
 }
 
 .intro .container {
@@ -264,10 +268,14 @@ figure {
 ------------------------------*/
 .subscribe {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/subscribe-img-01.jpg) no-repeat center / cover;
     text-align: center;
     color: #fff;
     padding: 60px 45px;
+    background: #333 no-repeat center / cover;
+    background-image: -o-linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/subscribe-img-01.jpg);
+    background-image: -moz-linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/subscribe-img-01.jpg);
+    background-image: -webkit-linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/subscribe-img-01.jpg);
+    background-image: linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/subscribe-img-01.jpg);
 }
 
 .subscribe h2 {
@@ -423,8 +431,11 @@ figure {
     }
 
     .intro {
-        background-image: linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)), url(../images/intro-img-02.jpg);
         min-height: 865px;
+        background-image: -o-linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/intro-img-02.jpg);
+        background-image: -moz-linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/intro-img-02.jpg);
+        background-image: -webkit-linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/intro-img-02.jpg);
+        background-image: linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/intro-img-02.jpg);
     }
 
     .intro .container {
@@ -541,8 +552,11 @@ figure {
     }
 
     .subscribe {
-        background-image: linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/subscribe-img-02.jpg);
         padding: 184px 300px 157px;
+        background-image: -o-linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/subscribe-img-02.jpg);
+        background-image: -moz-linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/subscribe-img-02.jpg);
+        background-image: -webkit-linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/subscribe-img-02.jpg);
+        background-image: linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/subscribe-img-02.jpg);
     }
 
     .subscribe h2 {
