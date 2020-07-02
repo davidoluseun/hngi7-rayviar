@@ -48,6 +48,8 @@ figure {
     color: #fff;
     background: #FF7B4D;
     border: 1px solid #FF7B4D;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border-radius: 5px;
 }
 
@@ -206,8 +208,14 @@ figure {
     bottom: 0;
     right: 0;
     background: #FF7B4D;
+    display: -moz-flex;
+    display: -webkit-flex;
     display: flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
     justify-content: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
     align-items: center;
 }
 
@@ -270,6 +278,8 @@ figure {
 }
 
 .subscribe-form {
+    display: -moz-flex;
+    display: -webkit-flex;
     display: flex;
     max-width: 715px;
 }
@@ -569,6 +579,8 @@ figure {
     }
 
     .bg-header .navbar-nav {
+        -moz-justify-content: flex-end !important;
+        -webkit-justify-content: flex-end !important;
         justify-content: flex-end !important;
     }
 
