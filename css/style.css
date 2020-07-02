@@ -252,6 +252,37 @@ figure {
     margin-top: 14px;
 }
 
+/* Subscribe 
+------------------------------*/
+.subscribe {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/subscribe-img-01.jpg) no-repeat center / cover;
+    text-align: center;
+    color: #fff;
+    padding: 60px 45px;
+}
+
+.subscribe h2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.subscribe-form {
+    display: flex;
+    max-width: 715px;
+}
+
+.user-email {
+    margin-right: 5px;
+}
+
+.user-email::placeholder {
+    font-size: 13px;
+    line-height: 19px;
+}
+
 /* Footer style
 -----------------------------*/
 
@@ -499,6 +530,16 @@ figure {
         line-height: 27px;
     }
 
+    .subscribe {
+        background-image: linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .7)) ,url(../images/subscribe-img-02.jpg);
+        padding: 184px 300px 157px;
+    }
+
+    .subscribe h2 {
+        font-size: 48px;
+        line-height: 72px;        
+    }
+ 
     .copyright {
         text-align: right !important;
     }
