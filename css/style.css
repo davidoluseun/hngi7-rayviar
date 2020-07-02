@@ -171,6 +171,8 @@ figure {
 }
 
 .features-item {
+    -ms-flex: 0 0 100%;
+    -webkit-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
     text-align: center;
@@ -294,6 +296,8 @@ figure {
 
 .user-email {
     margin-right: 5px;
+    -ms-flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
     flex: 1 1 auto;
     width: 50%;
 }
@@ -368,6 +372,8 @@ figure {
     }
 
     .features-item {
+        -ms-flex: 0 0 50%;
+        -webkit-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
     }
@@ -500,6 +506,8 @@ figure {
     }
 
     .features-item {
+        -ms-flex: 0 0 25%;
+        -webkit-flex: 0 0 25%;
         flex: 0 0 25%;
         max-width: 25%;
     }
