@@ -337,11 +337,16 @@
             <section class="subscribe">
                 <h2>GET 15% DISCOUNT</h2>
                 <p>Subcribe to the Rayviar mailing list to receive update on new arrivals, special offers and other discount information.</p>
-                <form class="subscribe-form" action="">
-                    <input class="user-email form-control" type="email" name="user-email" placeholder="Your email address here">
-                    <input class="btn site-btn" type="submit" value="SUBSCRIBE">
-                </form>
-            </section>
+                <form class="subscribe-form" action="" method="post" novalidate>
+                    <div class="input-group w-100">
+                        <input class="user-email form-control" type="email" name="user-email" placeholder="Your email address here" required>
+                        <span class="input-group-btn">
+                            <input class="btn site-btn" type="submit" value="SUBSCRIBE">
+                        </span>
+                        <div class="invalid-feedback text-left">This field is required, please provide a valid email address</div>
+                    </div><!-- .input-group -->
+                </form><!-- .subscribe-form -->
+            </section><!-- .subscribe -->
         </main>
 
         <!-- Footer Section -->
@@ -353,10 +358,10 @@
                     </div><!-- .ft-navbar -->
 
                     <div class="social-md-contact col-6">
-                        <a class="social-md-link p-1 p-sm-2" href="https://www.instagram.com" target="_blank">
+                        <a class="social-md-link p-1 p-sm-2" href="https://www.facebook.com" target="_blank">
                             <span>
-                                <span class="fab fa-instagram" aria-hidden="true"></span>
-                                <span class="sr-only">Instagram</span>
+                                <span class="fab fa-facebook-f" aria-hidden="true"></span>
+                                <span class="sr-only">Facebook</span>
                             </span>
                         </a><!-- .p-1 -->
                         <a class="social-md-link p-1 p-sm-2" href="https://www.twitter.com" target="_blank">
@@ -365,11 +370,10 @@
                                 <span class="sr-only">Twitter</span>
                             </span>
                         </a><!-- .p-1 -->
-
-                        <a class="social-md-link p-1 p-sm-2" href="https://www.facebook.com" target="_blank">
+                        <a class="social-md-link p-1 p-sm-2" href="https://www.instagram.com" target="_blank">
                             <span>
-                                <span class="fab fa-facebook-f" aria-hidden="true"></span>
-                                <span class="sr-only">Facebook</span>
+                                <span class="fab fa-instagram" aria-hidden="true"></span>
+                                <span class="sr-only">Instagram</span>
                             </span>
                         </a><!-- .p-1 -->
                     </div><!-- .col-md-4 -->
@@ -385,7 +389,7 @@
         </footer><!-- .container -->
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>

@@ -76,6 +76,7 @@ figure {
     font-size: 24px;
     line-height: 42px; 
     color: #150101;
+    margin-right: .6rem;
 }
 
 .navbar-light .site-title:hover,
