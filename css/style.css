@@ -294,6 +294,8 @@ figure {
 
 .user-email {
     margin-right: 5px;
+    flex: 1 1 auto;
+    width: 50%;
 }
 
 .user-email::placeholder {
